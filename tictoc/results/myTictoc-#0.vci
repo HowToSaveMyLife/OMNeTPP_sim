@@ -1,0 +1,51 @@
+file 187038 1703079898                                          
+version 2
+run myTictoc-0-20231220-21:37:05-23084
+attr configname myTictoc
+attr datetime 20231220-21:37:05
+attr experiment myTictoc
+attr inifile omnetpp.ini
+attr iterationvars ""
+attr iterationvarsf ""
+attr measurement ""
+attr network myTictoc
+attr processid 23084
+attr repetition 0
+attr replication #0
+attr resultdir results
+attr runnumber 0
+attr seedset 0
+param myTictoc.n 2
+param myTictoc.tic_0[*].delayTime truncnormal(1s,0.5s)
+
+vector 0 myTictoc.tic_3[3] hopCount:vector ETV
+attr interpolationmode none
+attr source arrival
+attr title "hop count, vector"
+vector 1 myTictoc.tic_3[2] hopCount:vector ETV
+attr interpolationmode none
+attr source arrival
+attr title "hop count, vector"
+vector 2 myTictoc.tic_3[0] hopCount:vector ETV
+attr interpolationmode none
+attr source arrival
+attr title "hop count, vector"
+vector 3 myTictoc.tic_3[4] hopCount:vector ETV
+attr interpolationmode none
+attr source arrival
+attr title "hop count, vector"
+vector 4 myTictoc.tic_3[1] hopCount:vector ETV
+attr interpolationmode none
+attr source arrival
+attr title "hop count, vector"
+vector 5 myTictoc.tic_3[5] hopCount:vector ETV
+attr interpolationmode none
+attr source arrival
+attr title "hop count, vector"
+0	1231 31500 74 199697 3.9 10566.3 1675 1 78 19763 435221
+1	32731 30702 76 199700 4 10566.4 1703 1 22 5164 29232
+2	63433 30836 85 199662 4.6 10564.8 1660 1 135 28240 979874
+3	94269 30953 116 199534 6.7 10558.1 1656 1 74 12601 220201
+4	125222 30886 285 199604 14.9 10561.5 1654 1 75 12449 208511
+5	156108 30928 427 199628 21.8 10562.8 1669 1 132 27447 882587
+

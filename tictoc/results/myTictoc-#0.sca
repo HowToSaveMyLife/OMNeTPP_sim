@@ -1,0 +1,86 @@
+version 2
+run myTictoc-0-20231220-21:37:05-23084
+attr configname myTictoc
+attr datetime 20231220-21:37:05
+attr experiment myTictoc
+attr inifile omnetpp.ini
+attr iterationvars ""
+attr iterationvarsf ""
+attr measurement ""
+attr network myTictoc
+attr processid 23084
+attr repetition 0
+attr replication #0
+attr resultdir results
+attr runnumber 0
+attr seedset 0
+param myTictoc.n 2
+param myTictoc.tic_0[*].delayTime truncnormal(1s,0.5s)
+
+statistic myTictoc.tic_3[0] hopCount:stats
+field count 1660
+field mean 17.012048192771
+field stddev 17.350997612969
+field min 1
+field max 135
+field sum 28240
+field sqrsum 979874
+attr interpolationmode none
+attr source arrival
+attr title "hop count, stats"
+statistic myTictoc.tic_3[1] hopCount:stats
+field count 1654
+field mean 7.5266021765417
+field stddev 8.3340833118381
+field min 1
+field max 75
+field sum 12449
+field sqrsum 208511
+attr interpolationmode none
+attr source arrival
+attr title "hop count, stats"
+statistic myTictoc.tic_3[2] hopCount:stats
+field count 1703
+field mean 3.0322959483265
+field stddev 2.8239807103092
+field min 1
+field max 22
+field sum 5164
+field sqrsum 29232
+attr interpolationmode none
+attr source arrival
+attr title "hop count, stats"
+statistic myTictoc.tic_3[3] hopCount:stats
+field count 1675
+field mean 11.798805970149
+field stddev 10.986066922919
+field min 1
+field max 78
+field sum 19763
+field sqrsum 435221
+attr interpolationmode none
+attr source arrival
+attr title "hop count, stats"
+statistic myTictoc.tic_3[4] hopCount:stats
+field count 1656
+field mean 7.6092995169082
+field stddev 8.666922109052
+field min 1
+field max 74
+field sum 12601
+field sqrsum 220201
+attr interpolationmode none
+attr source arrival
+attr title "hop count, stats"
+statistic myTictoc.tic_3[5] hopCount:stats
+field count 1669
+field mean 16.445176752546
+field stddev 16.078648011143
+field min 1
+field max 132
+field sum 27447
+field sqrsum 882587
+attr interpolationmode none
+attr source arrival
+attr title "hop count, stats"
+
